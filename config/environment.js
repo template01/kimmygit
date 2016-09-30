@@ -3,6 +3,8 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'kimmywp2',
+    // wordpressHost: 'http://valiz.template01.info/',
+    // contentSecurityPolicy:{'connect-src': "'self' http://valiz.template01.info*",}, 
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -18,6 +20,7 @@ module.exports = function(environment) {
       // when it is created
     }
   };
+
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
